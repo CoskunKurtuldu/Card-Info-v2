@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="/usr/share/php" />
+      <path value="$PROJECT_DIR$/../../bin/php/php5.6.30" />
+      <path value="." />
+      <path value="/usr/bin" />
+      <path value="$PROJECT_DIR$/../../bin/php" />
+      <path value="$PROJECT_DIR$/../../bin/php/php7.1.1/lib/php" />
+      <path value="$PROJECT_DIR$/../../bin/php/php5.6.30/lib/php" />
+    </include_path>
+  </component>
+  <component name="PhpProjectServersManager">
+    <servers>
+      <server host="localhost" id="2c7963b8-ce7f-4e83-ac3c-db3b32a49bc7" name="localhost" port="9000" />
+    </servers>
+  </component>
+</project>
