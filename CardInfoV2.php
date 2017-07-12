@@ -3,7 +3,7 @@
  * Created by PhpStorm.
  * User: gokturk
  * Date: 08.07.2017
- * Time: 12:15
+ * Time: 12:15:19
  */
 
 $url= "https://secure.payu.com.tr/api/card-info/v2/";
