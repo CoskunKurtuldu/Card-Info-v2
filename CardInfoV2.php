@@ -9,10 +9,10 @@
 $url= "https://secure.payu.com.tr/api/card-info/v2/";
 $secret="SECRET_KEY";
 $arParams = array(
-	"extraInfo"        => true,
+	"extraInfo"        => "true",
 	"dateTime"     => gmdate("c", time()),
 	"merchant"      => 'OPU_TEST',
-	"cc_cvv"        => 000,
+	"cc_cvv"        => "000",
 	"cc_owner" => "Göktürk Enez",
 	"exp_year" => "2018",
 	"exp_month" => "12",
@@ -42,10 +42,10 @@ $curlerr = curl_error($ch);
 if (empty($curlerr) && empty($curlerrcode)) {
 	$parsedXML = @simplexml_load_string($response);
 	echo "<pre>";
-	print_r($response);
+	print($response);
 	echo "</pre>";
 	if ($parsedXML !== FALSE) {
-	echo "XML parsing is failed";
+		echo "XML parsing is failed";
 	}
 }
 else {
